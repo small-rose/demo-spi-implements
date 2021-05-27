@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--with SpringSpiExtensionTest add-->
+    <bean id="extensionLoader" class="cn.xiaocai.springspi.demo.extension.ExtensionLoader"/>
+
+    <!--<bean id="helloService" class="ExtensionImplA"/>-->
+
+    <!--<bean id="extensionImplA" class="ExtensionImplA" autowire="byName"/>-->
+
+    <!--<bean id="extensionImplB" class="ExtensionImplA" autowire="byName"/>-->
+
+    <!--Spring托管Bean-->
+    <bean id="springService" class="cn.xiaocai.springspi.demo.springimpl.SpringServiceImpl">
+    </bean>
+</beans>

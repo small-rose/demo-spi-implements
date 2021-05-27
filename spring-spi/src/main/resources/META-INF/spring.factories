@@ -1,0 +1,3 @@
+cn.xiaocai.springspi.demo.service.HelloService=\
+cn.xiaocai.springspi.demo.serviceimpl.HelloServiceImpl,\
+  cn.xiaocai.springspi.demo.serviceimpl.HiServiceImpl
